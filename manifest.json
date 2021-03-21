@@ -4,7 +4,6 @@
     "description": "This Chrome extension banishes podcasts from the Spotify web player user interface.",
     "version": "1.0",
 
-    "permissions": [ "activeTab" ],
     "content_scripts": [
         {
             "matches": [ "https://open.spotify.com/*" ],
