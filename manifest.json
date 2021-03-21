@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Spotify Podcast Banish",
+    "description": "This Chrome extension banishes podcasts from the Spotify web player user interface.",
+    "version": "1.0",
+
+    "permissions": [ "activeTab" ],
+    "content_scripts": [
+        {
+            "matches": [ "https://open.spotify.com/*" ],
+            "css": [ "styles.css" ], 
+	    "run_at": "document_idle"
+        }
+    ],
+
+    "icons": {
+	    "16": "banish_podcasts16.png",
+	    "48": "banish_podcasts48.png",
+	    "128": "banish_podcasts128.png"
+    }
+}
