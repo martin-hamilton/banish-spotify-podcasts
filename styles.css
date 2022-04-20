@@ -3,6 +3,7 @@ body {
 }
 
 section[aria-label='Shows to try'],
+section[aria-label='Shows you might like'],
 section[aria-label='Episodes for you'] {
   aria-hidden: "true";
   display: none;
