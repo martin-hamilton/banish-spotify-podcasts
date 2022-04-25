@@ -3,6 +3,9 @@ body {
 }
 
 section[aria-label='Shows to try'],
+section[aria-label='What\'s trending?'],
+section[aria-label='For today\'s drive'],
+section[aria-label='Best podcasts for sleep'],
 section[aria-label='Shows you might like'],
 section[aria-label='Episodes for you'] {
   aria-hidden: "true";
