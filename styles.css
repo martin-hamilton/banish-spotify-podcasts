@@ -11,6 +11,7 @@ section[aria-label='Good evening'],
 section[aria-label='Good afternoon'],
 section[aria-label='Good morning'],
 section[aria-label='Your shows'],
+section[aria-label='Advent calender podcasts'],
 section[aria-label='Episodes for you'] {
   aria-hidden: "true";
   display: none;
